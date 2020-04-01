@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Fibonacci</title>
+</head>
+<body>
+	<h1>Show Fibonacci Series up to the the selected sequence</h1>
+	<p id="display1"></p>
+	<p id="display2"></p>
+	
+	<form>
+		Input Sequence Order: <input type="number" id="sequenceOrder" name="sequenceOrder">
+	</form>
+	<input type="submit" onclick="document.getElementById('display2').innerHTML = showFibonacci(sequenceOrder)" value="Start">
+	
+	<script language="javascript" type="text/javascript" src="showFibonacci.js">
+	</script>
+</body>
+</html>
